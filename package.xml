@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>SSTech_Enquiry</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>Open source License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Extension which will allow to get the Quick Response </summary>
+    <description>Extension which will allow to get the Quick Response </description>
+    <notes>Stable Version </notes>
+    <authors><author><name>SSTech</name><user>ssteech</user><email>sandynareshg@gmail.com</email></author></authors>
+    <date>2014-06-14</date>
+    <time>13:04:40</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="SSTech_Enquiry.xml" hash="704104c230cbcdc082782fef87822cfb"/></dir></target><target name="magecommunity"><dir name="SSTech"><dir name="Enquiry"><dir name="Block"><dir name="Adminhtml"><dir name="Enquiry"><dir name="Edit"><file name="Form.php" hash="e7f4d89a63636e568726ed4b11a3e663"/><dir name="Tab"><file name="Form.php" hash="7397c0c442775f91648358ed9925d057"/></dir><file name="Tabs.php" hash="3b6d454934d9f16cfddab6be924915d9"/></dir><file name="Edit.php" hash="b8fee14b0677c05a284b1fa607eef1d2"/><file name="Grid.php" hash="99b2c9a8ba15510021f51e95b705c1ef"/></dir><file name="Enquiry.php" hash="01cd9d5dd8354604798bbc6468cc429c"/><file name="Enquirybackend.php" hash="d875d9ab2d274002f94e4f9742458774"/></dir><file name="Enquiry.php" hash="ebc6c54f563bd627821fb02bdaa77746"/><file name="Index.php" hash="eeb1ec9bcc0364721784cafc8d301d41"/></dir><dir name="Helper"><file name="Data.php" hash="17840f7adf95102d826896d3dc151635"/></dir><dir name="Model"><file name="Enquiry.php" hash="bd754a914df5cf064e5f2c3bdeb94a34"/><dir name="Mysql4"><dir name="Enquiry"><file name="Collection.php" hash="c4f95199ac292ae0f32279134b368916"/></dir><file name="Enquiry.php" hash="47054d65c2301b98fe07e5de6cb83758"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="EnquiryController.php" hash="b3ec9895d96edaaad9f63c88bc8b63ea"/><file name="EnquirybackendController.php" hash="87c35f5232cb3589c42f77dbaaaeee26"/><dir name="Rss"><file name="RssController.php" hash="71d30fa9f60754f4a298105b2ece02db"/></dir></dir><file name="EnquiryController.php" hash="fef4f35d21731208accee243b7e42d73"/><file name="IndexController.php" hash="e2aafae385fb7fba4229d04161bfee40"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6d35e4b64a0d26d0715eaf5a098bc08b"/><file name="config.xml" hash="a55b618375bef9f928a5659d7c7c7220"/><file name="system.xml" hash="0ac6acdc303ecb6f6a45047f5d1f05fe"/></dir><dir name="sql"><dir name="enquiry_setup"><file name="mysql4-install-0.1.0.php" hash="9da224b112d61bb9fd8f5a64cd0715d1"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="enquiry"><file name="enquiry.phtml" hash="0f178a230af4a96d1a0f5aeff324539b"/><file name="index.phtml" hash="395b5512423d31a9526f94e3d7dcc13a"/></dir></dir><dir name="layout"><file name="enquiry.xml" hash="d756102d2c32c6e9cb89e9c53d36a9a3"/></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="enquiry.xml" hash="73eed49ae3129b0d81529befb3bc8cdc"/></dir><dir name="template"><dir name="enquiry"><file name="information.phtml" hash="d05134c9f3f1d07b067cb388ae385f8c"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><file name="comment_template.html" hash="ac11096de4e1d7188168c1e829d9c7da"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

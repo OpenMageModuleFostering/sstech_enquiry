@@ -1,0 +1,31 @@
+<?xml version="1.0"?>   
+<layout version="0.1.0">   
+  <default>
+		<reference name="top.links">
+			<block type="enquiry/enquiry" name="enquiry.toplink" >
+				<action method="addToTopLink" ifconfig="enquiries/settings/enabled"></action>
+			</block>
+        </reference>
+		<reference name="head">
+			<block type="enquiry/enquiry" name="enquiry.toplink" >
+			</block>
+		</reference>
+    </default>
+  <enquiry_index_index>   
+     <reference name="root">   
+      <action method="setTemplate"><template>page/2columns-left.phtml</template></action>   
+    </reference>   
+    <reference name="content">   
+      <block type="enquiry/enquiry" name="enquiry_enquiry" template="enquiry/enquiry.phtml"/>   
+    </reference>
+  </enquiry_index_index>  
+  <enquiry_enquiry_index>
+    <reference name="root">   
+      <action method="setTemplate"><template>page/2columns-left.phtml</template></action>   
+    </reference>   
+    <reference name="content">   
+      <block type="enquiry/enquiry" name="enquiry_enquiry" template="enquiry/enquiry.phtml"/>   
+    </reference>
+  </enquiry_enquiry_index>  
+</layout>   
+	

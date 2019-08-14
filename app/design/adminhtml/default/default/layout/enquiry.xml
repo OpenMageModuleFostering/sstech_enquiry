@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <enquiry_adminhtml_enquirybackend_index>
+	<reference name="content">
+	  <block type="enquiry/adminhtml_enquirybackend" name="enquirybackend" template="enquiry/enquirybackend.phtml"/>
+	</reference>
+  </enquiry_adminhtml_enquirybackend_index>
+  <enquiry_adminhtml_enquiry_index>
+	<reference name="content">
+	  <block type="enquiry/adminhtml_enquiry" name="enquiry" />
+	</reference>
+  </enquiry_adminhtml_enquiry_index>
+</layout>

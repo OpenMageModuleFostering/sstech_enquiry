@@ -1,0 +1,48 @@
+<div class="account-create">
+<form action="<?php echo $this->getEnquiryActionUrl() ?>" method="post" id="form-validate">
+        <div class="fieldset">
+            <h2 class="legend"><?php echo $this->__('Quick Enquiry') ?></h2>
+            <ul class="form-list">                
+                <li>
+                    <label for="name" class="required"><em>*</em><?php echo $this->__('Name') ?></label>
+                    <div class="input-box">
+                        <input type="text" name="name" id="name"  title="<?php echo $this->__('Name') ?>" class="input-text required-entry" />
+                    </div>
+                </li>
+				   <li>
+                    <label for="email_address" class="required"><em>*</em><?php echo $this->__('Email Address') ?></label>
+                    <div class="input-box">
+                        <input type="text" name="email" id="email_address"  title="<?php echo $this->__('Email Address') ?>" class="input-text validate-email required-entry" />
+                    </div>
+                </li>
+				   <li>
+                    <label for="telephone"><?php echo $this->__('Telephone') ?></label>
+                    <div class="input-box"> 
+                        <input type="text" name="telephone" id="telephone"  title="<?php echo $this->__('Telephone') ?>" class="input-text validate-phoneLax" />
+                    </div>
+                </li>
+				   <li>
+                    <label for="address"><?php echo $this->__('Address') ?></label>
+                    <div class="input-box">
+                        <input type="text" name="address" id="address"  title="<?php echo $this->__('Address') ?>" class="input-text" />
+                    </div>
+                </li>
+               </li>
+				 <li>
+                    <label for="comment" class="required"><em>*</em><?php echo $this->__('Comment') ?></label>
+                    <div class="input-box">
+						<textarea name="comment" id="comment"  title="<?php echo $this->__('Comment') ?>" class="input-text required-entry" ></textarea> 
+                    </div>
+                </li>
+				<input type="hidden" name="store_id" value="<?php echo Mage::app()->getStore()->getStoreId() ?>">
+        <div class="buttons-set">
+            <button type="submit" title="<?php echo $this->__('Submit') ?>" class="button"><span><span><?php echo $this->__('Submit') ?></span></span></button>
+        </div>
+    </div>
+</form>
+ <script type="text/javascript">
+    //<![CDATA[
+        var dataForm = new VarienForm('form-validate', true);        
+    //]]>
+  </script>
+ </div>
