@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/SSTech_Enquiry",
+    "name": "OpenMageModuleFostering\/SSTech_Enquiry",
     "type": "magento-module",
     "license": "Open-source-License",
     "homepage": "",
     "description": "Extension which will allow to get the Quick Response ",
     "authors": [
-    {
-        "name": "SSTech",
-        "email": "sandynareshg@gmail.com"
-    }
-],
+        {
+            "name": "SSTech",
+            "email": "sandynareshg@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
